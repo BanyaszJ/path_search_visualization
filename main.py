@@ -199,9 +199,6 @@ class BFSVisualizer:
                         self.algorithm_complete = False
                         auto_step = False
                         self.maze = self.create_maze()
-                    elif event.key == pygame.K_SPACE:  # Manual step
-                        if not auto_step:
-                            self.bfs_step()
 
                 if not auto_step:
                     if self.lmb_down_state:
