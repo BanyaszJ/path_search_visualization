@@ -218,7 +218,7 @@ class BFSVisualizer:
             # Draw controls
             font = pygame.font.Font(None, 20)
             controls = [
-                "A: Start/stop",
+                "Enter: Start/stop",
                 "R: Reset",
             ]
 
